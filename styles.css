@@ -1,0 +1,52 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	margin-right: 5px;
+	width: 80px;
+	height: 60px;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 5px;
+	margin-left: 15px;
+	font-family: "Times New Roman", Times, serif;
+}
+.postcard-body {
+	display: flex;
+	max-height: 150px;
+}
+
+.body-left,
+.body-right {
+	margin: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+}
+.postcard-footer {
+	margin: 25px;
+	text-align: center;
+}
+.cuadro {
+	border-bottom: 1px darkgray;
+
+	background-color: gray;
+	color: black;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
